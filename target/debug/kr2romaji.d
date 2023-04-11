@@ -1,1 +1,0 @@
-/data/data/com.termux/files/home/kr2romaji/target/debug/kr2romaji: /data/data/com.termux/files/home/kr2romaji/src/banner.rs /data/data/com.termux/files/home/kr2romaji/src/color.rs /data/data/com.termux/files/home/kr2romaji/src/conveter.rs /data/data/com.termux/files/home/kr2romaji/src/main.rs
