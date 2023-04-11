@@ -19,4 +19,4 @@ cd korea-romaji-cli
 cargo run
 ```
 
-![Screenshot](./doc/ss0.gif){loop=""}
+![Screenshot](./doc/ss0.gif)
