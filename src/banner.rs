@@ -26,7 +26,7 @@ pub fn show() {
     println!("Wellcome to my korea-romanization CLI project.\n");
     println!("This project's source code can be found in this project's GitHub repo.\n--\n");
 
-    println!("My name is Aung Lynn Khant.");
+    println!("My name is Aung Koko Lwin.");
     println!("Github: https://github.com/alk-neq-me\n");
 
     println!("Type `help` to see usage.\nType `q` to quit.\n");
