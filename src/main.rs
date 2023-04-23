@@ -28,11 +28,11 @@ fn main() -> Result<(), std::io::Error> {
 
         match result.convert(&input.trim()) {
             Ok(txt) => {
-                let log = Color::Purple(String::from("[ Ok ]"));
-                println!("{log} {txt:#?}");
+                let log = Color::Purple("[ Ok ]");
+                println!("{log} {:#?}", txt.romaji);
             },
             Err(e) => {
-                let log = Color::Red(String::from("[ Err ]"));
+                let log = Color::Red("[ Err ]");
                 println!("{log} {e:?}");
             }
         };

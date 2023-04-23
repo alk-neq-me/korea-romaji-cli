@@ -31,9 +31,9 @@ pub fn show() {
 
     println!("Type `help` to see usage.\nType `q` to quit.\n");
     
-    println!("-- \n{}", Color::Green(String::from("Usage: ")));
+    println!("-- \n{}", Color::Green("Usage: "));
     println!("    type korea context `hangul` input.\n");
     
-    println!("{}", Color::Green(String::from("Example: ")));
+    println!("{}", Color::Green("Example: "));
     println!("    hangul: 안녕하세요");
 }

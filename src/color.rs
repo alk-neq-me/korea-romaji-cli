@@ -1,10 +1,10 @@
-pub enum Color {
-    Red(String),
-    Purple(String),
-    Green(String),
+pub enum Color<'a> {
+    Red(&'a str),
+    Purple(&'a str),
+    Green(&'a str),
 }
 
-impl std::fmt::Display for Color {
+impl<'a> std::fmt::Display for Color<'a> {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         return match self {
             Color::Red(txt) => write!(f, "\x1b[31m{}\x1b[0m", txt),
